@@ -74,7 +74,7 @@ So the key feasures of MC itegration are
 1. The error estimate does not depende direcly on the dimsnsionality of the underlying space
 2. The error diminisihes at a slow rate of $O(n^{-1/2})$.
 
-On the other hand, quadrature methods (in one dimension) at the rate of $O(n^{-k})$ for $k \ge 2$. If $n = m^d$ points are used in $d$ dimensions, then the error is $O(n^{-k/d})$. So the numerical merit of MC integration over quadrature methods is roughly for $d \ge 4$.
+On the other hand, quadrature methods (in one dimension) converges at the rate of $O(n^{-k})$ for $k \ge 2$. If $n = m^d$ points are used in $d$ dimensions, then the error is $O(n^{-k/d})$. So the numerical merit of MC integration over quadrature methods is roughly for $d \ge 4$.
 
 Nevertheless MC has an attraction of very simple implementation: just sample and average.
 
